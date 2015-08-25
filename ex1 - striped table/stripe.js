@@ -6,9 +6,11 @@ $(document).ready(function(){
     e.preventDefault();
     newColor = $(".newColor").val();
     $("tr:even > td").css("background",newColor);
+    $(".newColor").val(""); 
     property = $(".property").val();
     value = $(".value").val();
-    $("tr:odd > td").css(property,value);
-    $(".newColor").val("");
+    if (property && value) {
+      $("tr:odd > td").css(property,value);
+    }
   });
 });
