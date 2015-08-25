@@ -1,4 +1,4 @@
-# Challenge 3 - Form validation
+# Challenge 3 
 
 ## Task
 
@@ -12,7 +12,7 @@ You are going to build your first client-side validation! The user should be abl
 4. If the user has successfully submitted the form, fade out the form and fadeIn a message saying "Thank you for signing up!"
 
 
-### Some jQuery methods you might use (not a complete list)
+### Some jQuery methods you are going to be using (not a complete list)
 
 1. on()
 2. preventDefault()
