@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+
+  <form id="altColor" method="post">
+    <label for="colorInput">Change BG Color for Even Rows</label>
+    <input id="colorInput" type="text">
+    <input type="submit" value="Change Color">
+  </form>
+
+  <table>
+    <tr>
+      <th>Zombie Corpus A</th>
+      <th>Zombie Corpus B</th>
+      <th>Zombie Corpus C</th>
+    </tr>
+    <tr>
+      <td><img src="http://placezombie.com/100x60" /></td>
+      <td><img src="http://placezombie.com/100x60" /></td>
+      <td><img src="http://placezombie.com/100x60" /></td>
+    </tr>
+    <tr>
+      <td><img src="http://placezombie.com/100x60" /></td>
+      <td><img src="http://placezombie.com/100x60" /></td>
+      <td><img src="http://placezombie.com/100x60" /></td>
+    </tr>
+    <tr>
+      <td><img src="http://placezombie.com/100x60" /></td>
+      <td><img src="http://placezombie.com/100x60" /></td>
+      <td><img src="http://placezombie.com/100x60" /></td>
+    </tr>
+    <tr>
+      <td><img src="http://placezombie.com/100x60" /></td>
+      <td><img src="http://placezombie.com/100x60" /></td>
+      <td><img src="http://placezombie.com/100x60" /></td>
+    </tr>
+    <tr>
+      <td><img src="http://placezombie.com/100x60" /></td>
+      <td><img src="http://placezombie.com/100x60" /></td>
+      <td><img src="http://placezombie.com/100x60" /></td>
+    </tr>
+  </table>
+
+  <h1>Your ToDos</h1>
+  <form id="todoForm" method="post">
+    <label for="todoInput">Add Your ToDos</label>
+    <input id="todoInput" type="text" placeholder="Add a ToDo">
+    <input type="submit" value="Add ToDo">
+  </form>
+  <ul id="todoList">
+
+  </ul>
+
+
+  <h2>Validation</h2>
+  <form method="post" id="valForm">
+    <label for="todo">Password</label>
+    <input type="password" name="password" id="password">
+    <input type="submit" name="save" id="save" value="Save">
+    <div class="error"></div>
+  </form>
+  <div id="success" style="display: none;">So you signed up... big deal!</div><br><br><br><br>All Done!
+</body>
+</html>

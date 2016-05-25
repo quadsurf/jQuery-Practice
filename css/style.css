@@ -1,0 +1,44 @@
+.container {
+    width: 650px;
+}
+.container div {
+    height: 100px;
+    width: 160px;
+    border: 1px solid #666;
+    float: left;
+    background: #099086;
+}
+
+table td,th {
+  width: 150px;
+  border: 1px solid purple;
+}
+
+img {
+  margin: 25px;
+}
+
+.completed {
+  text-decoration: line-through !important;
+}
+
+.error {
+  color: red;
+}
+
+ul {
+    list-style:none;
+    padding-left:0;
+    padding-right: 0;
+}​
+
+li {
+    height: 30px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+    list-style-type:none;
+}
+
+img {
+    vertical-align: middle;
+}
